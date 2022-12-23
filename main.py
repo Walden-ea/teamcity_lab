@@ -1,6 +1,5 @@
-import random
 
-def get_num(fr = 0,to = 20):
-    return random.randint(fr,to)
+def get_num(n):
+    return 7
 
-print(get_num()+"fdfd")
+print("hello from lab "+str(get_num(5)))
